@@ -13,9 +13,29 @@ body{
   clear: both;
 }
 
-.row-1{
+.row-1> .col1, .col2{
   height: 100px;
   background-color: aliceblue;
+  width: 50%;
+  border: 1px solid black;
+  float: left;
+}
+
+.learn-more{
+  background color: orange;
+}
+
+.col1 , .col2{
+
+}
+
+.intro{
+  top: 50%;
+  left: 20%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  display: inline-block;
+  padding: 0 100px;
 }
 
 .row-2 > .col-1 , .row-2 > .col-2{
@@ -34,6 +54,16 @@ body{
   background-color: linen;
 }
 
+.text-row-3{
+  margin-left: 60px;
+}
+
+.img-row-3{
+  height: auto;
+  width: 900px;
+  margin-left: 100px;
+}
+
 .row-4{
   height: 50px;
   background-color: aquamarine;
@@ -42,6 +72,7 @@ body{
 .row-5{
   height: 1050px;
   background-color: aliceblue;
+
 }
 
 .cube-img{
@@ -107,5 +138,4 @@ body{
 .row-8{
   background-color: darkslategray;
   height: 400px
-
 }
